@@ -24,7 +24,7 @@ declare namespace dir="http://marklogic.com/xdmp/directory"
 
 (: modify $playdir so it points to the directory in which the 
    Shakespeare XML files are located :)
-let $playdir := "C:\development\shakespeare"
+let $playdir := "C:\Program Files\MarkLogic\bill"
 
 
 (: clean up path so it works properly on Windows and UNIX systems :)
